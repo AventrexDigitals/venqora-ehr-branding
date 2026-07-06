@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Venqora EHR — Blog &amp; Resources</title>
+    <link>https://venqora.aventrexdigital.com</link>
+    <description>EHR guides, resources, and product updates from Venqora EHR.</description>
+    <language>en-us</language>
+    <atom:link href="https://venqora.aventrexdigital.com/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>How to Choose an EHR System: A Buyer&apos;s Checklist for Clinics</title>
+      <link>https://venqora.aventrexdigital.com/blog/how-to-choose-an-ehr/</link>
+      <guid isPermaLink="true">https://venqora.aventrexdigital.com/blog/how-to-choose-an-ehr/</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <description>A practical EHR buying guide: the questions to ask, features that matter, red flags to avoid, and a step-by-step evaluation checklist for clinics and medical groups.</description>
+      <author>Venqora EHR</author>
+    </item>
+    <item>
+      <title>EHR vs EMR: What&apos;s the Difference and Why It Matters</title>
+      <link>https://venqora.aventrexdigital.com/blog/ehr-vs-emr/</link>
+      <guid isPermaLink="true">https://venqora.aventrexdigital.com/blog/ehr-vs-emr/</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description>EHR vs EMR explained: how electronic health records differ from electronic medical records, which one your practice needs, and how modern platforms blur the line.</description>
+      <author>Venqora EHR</author>
+    </item>
+    <item>
+      <title>What Is an EHR? Electronic Health Records Explained (2026 Guide)</title>
+      <link>https://venqora.aventrexdigital.com/blog/what-is-an-ehr/</link>
+      <guid isPermaLink="true">https://venqora.aventrexdigital.com/blog/what-is-an-ehr/</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description>A plain-English guide to electronic health records (EHR): what an EHR system does, core features, benefits for clinics and patients, and how modern cloud EHR platforms work.</description>
+      <author>Venqora EHR</author>
+    </item>
+  </channel>
+</rss>

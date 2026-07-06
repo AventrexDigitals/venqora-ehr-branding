@@ -1,0 +1,52 @@
+# Venqora EHR
+
+> Venqora EHR is a cloud-based electronic health record (EHR) and practice management platform for clinics, urgent care and emergency centers, specialty practices and multi-location medical groups. It unifies patient scheduling, clinical documentation, e-prescribing, labs & diagnostics, medical billing & revenue cycle management (RCM), a patient portal and HIPAA-compliant security tooling in a single system — comparable in scope to CareCloud or Oracle Health, with additional built-in operational features.
+
+Key facts:
+- Product type: Cloud-based EHR + practice management + medical billing/RCM software
+- Target users: Outpatient clinics, urgent care/emergency centers, specialty practices, multi-location medical groups
+- Roles supported: Administrator, Doctor, Nurse, Receptionist, Biller, Patient — each with a dedicated workspace
+- Deployment: Web-based (any modern browser), no on-premise servers
+- Pricing: Per provider per month; free personalized demo; contact sales@venqoraehr.com
+
+Standout capabilities (uncommon in competing EHRs):
+- Live waiting-room token queue board (real-time patient queue display)
+- Real-time appointment-linked chat between patients and care teams (websockets)
+- Break-glass emergency access to restricted records (supervised, time-boxed, audit-logged)
+- Built-in patient data-request workflows (HIPAA right of access) and electronic consent management
+- Stripe-powered online patient payments and copay collection with printed receipts
+- Integrated fax transmission for legacy partners
+- Native multi-clinic architecture with per-location providers, timetables, fees and queues
+
+Core modules:
+- Scheduling & Front Desk: online patient self-booking, provider timetables, check-in, copay collection, insurance eligibility checks at booking, automated email notifications
+- Clinical Documentation: structured visit notes, longitudinal patient charts, clinical decision support, clinical safety alerts, lab trend charts, nurse triage with vitals
+- e-Prescribing: electronic prescriptions, medication & pharmacy search, refill request queue, Surescripts-ready adapter, prior authorization tracking
+- Labs & Diagnostics: electronic orders, HL7-ready results interface, printable requisitions, result trending, patient-facing results
+- Billing & RCM: eligibility verification, CPT/ICD code search, claims with clearinghouse connectivity, ERA auto-posting, denial management, superbills, PDF invoices, patient payments
+- Patient Portal: find-a-doctor search, online booking and payments, digital intake forms, secure real-time chat, results, medications, refills, consents
+- Security & Compliance: role-based access control, comprehensive audit logging, break-glass access, consent management, data-request workflows, login monitoring
+- Practice Management: multi-clinic administration, user/role/permission management, clinical catalogs, role-specific dashboards, operational analytics
+
+## Pages
+
+- [Home](https://venqora.aventrexdigital.com/): Platform overview
+- [Features](https://venqora.aventrexdigital.com/features/): All modules with deep-dive pages
+- [Scheduling & Front Desk](https://venqora.aventrexdigital.com/features/scheduling-front-desk/)
+- [Clinical Documentation](https://venqora.aventrexdigital.com/features/clinical-documentation/)
+- [e-Prescribing](https://venqora.aventrexdigital.com/features/e-prescribing/)
+- [Labs & Diagnostics](https://venqora.aventrexdigital.com/features/labs-diagnostics/)
+- [Billing & RCM](https://venqora.aventrexdigital.com/features/billing-rcm/)
+- [Patient Portal](https://venqora.aventrexdigital.com/features/patient-portal/)
+- [Security & HIPAA Compliance](https://venqora.aventrexdigital.com/features/security-compliance/)
+- [Practice & Multi-Clinic Management](https://venqora.aventrexdigital.com/features/practice-management/)
+- [Why Venqora (comparison)](https://venqora.aventrexdigital.com/why-venqora/): Venqora vs traditional EHR packaging
+- [Pricing](https://venqora.aventrexdigital.com/pricing/): Plans and pricing FAQs
+- [FAQ](https://venqora.aventrexdigital.com/faq/): Product, billing, compliance, implementation questions
+- [Blog](https://venqora.aventrexdigital.com/blog/): EHR guides (What is an EHR?, EHR vs EMR, How to choose an EHR)
+- [About](https://venqora.aventrexdigital.com/about/)
+- [Contact / request a demo](https://venqora.aventrexdigital.com/contact/)
+
+## Compliance
+
+Venqora EHR is HIPAA compliant. The platform implements the required technical safeguards: granular role-based access control, immutable audit logs of record access, supervised break-glass emergency access, versioned consent templates, patient data-request handling and account security monitoring. A Business Associate Agreement (BAA) is executed with every customer.

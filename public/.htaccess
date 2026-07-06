@@ -1,0 +1,28 @@
+# Apache/LiteSpeed config for static hosting (e.g. Hostinger).
+# Next.js exports the social-preview image as an extensionless file; force the
+# correct content type so WhatsApp/Facebook/LinkedIn scrapers accept it.
+<Files "opengraph-image">
+  ForceType image/png
+</Files>
+
+# Serve correct type for the AI-crawler manifest
+<Files "llms.txt">
+  ForceType "text/plain; charset=utf-8"
+</Files>
+
+# Prefer index.html inside directories (Next export uses /blog/index.html etc.)
+DirectoryIndex index.html
+
+# New blog posts published after the last static build — load client-side from Aventrex API
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blog/([a-z0-9][a-z0-9-]*)/?$ /blog/article/?slug=$1 [L,QSA]
+
+# Custom 404 page from Next static export
+ErrorDocument 404 /404.html
+
+# Optional: force HTTPS (uncomment if Hostinger SSL is active and redirects loop)
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

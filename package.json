@@ -1,0 +1,27 @@
+{
+  "name": "venqora-ehr-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing website for the Venqora EHR platform",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "next build",
+    "build:hostinger": "node scripts/build-hostinger.mjs",
+    "package:hostinger": "node scripts/package-hostinger.mjs",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "20.17.6",
+    "@types/react": "19.2.17",
+    "tailwindcss": "^4.1.8",
+    "typescript": "5.8.2"
+  }
+}
